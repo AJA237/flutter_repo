@@ -7,4 +7,5 @@ class ColorsTheme {
   static const Color white = Colors.white;
   static final Color? grey = Colors.grey[800];
   static const Color? black = Colors.black;
+  static final Color? deepPurple = Colors.deepPurple;
 }

@@ -45,9 +45,8 @@ class _HomeScreenState extends State<HomeScreen> {
                   return CustomCard(
                     context: context,
                     taskBloc: todoBloc,
-                    description: state.todo[0].description,
-                    title: state.todo[0].title,
-                    tag: state.todo[0].tag,
+                    description: state.todo[index].description,
+                    title: state.todo[index].title,
                     onTap:
                         () {}, // still to be implemented to increase functionality
                   );

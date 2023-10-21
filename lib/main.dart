@@ -3,6 +3,8 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:newapp/features/bloc/task_bloc.dart';
 import 'package:newapp/features/screens/home.dart';
 
+import 'features/utils/colors.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -23,7 +25,7 @@ class _MyAppState extends State<MyApp> {
       child: MaterialApp(
         title: 'Flutter Demo',
         theme: ThemeData(
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+          colorScheme: ColorScheme.fromSeed(seedColor: ColorsTheme.deepPurple!),
           useMaterial3: true,
         ),
         home: HomeScreen(),
